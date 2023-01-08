@@ -37,7 +37,7 @@
   If you want to evaluate the model performance without retraining , you need to download [Pretrained Model](https://drive.google.com/file/d/1Jbzr1SQ-iFxKGfbqNFEFfhpfu1-Er1wH/view?usp=share_link) to the same directory as `109550135_Final_train.ipynb` first, then run `109550135_Final_inference.ipynb`.
 
 ## Prediction result
-  After finishing evalutaing the model by `109550135_Final_inference.ipynb`, you will get `109550135.csv` , which is the result you need .
+  After finishing evaluation of the model by `109550135_Final_inference.ipynb`, you will get `109550135.csv` , which is the result you need .
 
 The below is the accuracy result:
 

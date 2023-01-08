@@ -41,7 +41,7 @@
 
 The below is the accuracy result:
 
-![image](./README_img/result.png)
+![image](./README_pic/result.png)
 | Submission         | Private Score   | Public Score   |
 | ------------------ |---------------- | -------------- |
 | 109550135.csv     |     0.59125     |      0.59547   |

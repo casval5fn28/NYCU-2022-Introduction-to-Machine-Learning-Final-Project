@@ -26,7 +26,7 @@
 
 
 ## Train the model
-  Once you create the environment, you can run `109550135_Final_train.ipynb` for training the model.
+  Once you build up the environment, you can run `109550135_Final_train.ipynb` for training the model.
 
   Of course , you can skip the former step and use `109550135_Final_inference.ipynb` directly to evaluate performace of the model
 >P.S. Don't forget to download [Pretrained Model](https://drive.google.com/file/d/1Jbzr1SQ-iFxKGfbqNFEFfhpfu1-Er1wH/view?usp=share_link) to the same directory as `109550135_Final_train.ipynb` first, then you can run `109550135_Final_inference.ipynb`.

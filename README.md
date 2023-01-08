@@ -1,18 +1,17 @@
 # Introduction-to-Machine-Learning Final Project
 
 ## Environment
-* python: 3.8.16
-* tesorflow: 2.9.2
-* pytorch: 1.13.0+cu116
-* keras: 2.9.0
+* python: 3.10.5
+* tesorflow: 2.11.0
+* keras: 2.11.0
 
 ## How to reproduce the work
-* First install the package(for google colab)
+* First install following packages(for google colab)
 ```bash
-!pip install -q keras
+!pip install keras
 !pip install tensorflow
 ```
-* To reproduce `submission.csv` without retraining :
+* To reproduce `109550135.csv`(file for submission) without retraining :
 1. download [the pretrained model](https://drive.google.com/drive/folders/1bKJTxncll687Rdsdr0xXWU_3BLsR8fR0) 
 2. run `109550139_Final_inference.ipynb`
 
@@ -39,4 +38,4 @@ Here is the accuracy result:
 ![image](./README_img/submission.jpg)
 | Submission         | Private Score   | Public Score   |
 | ------------------ |---------------- | -------------- |
-| submission.csv     |     0.59014     |      0.58504   |
+| 109550135.csv     |     0.59014     |      0.58504   |

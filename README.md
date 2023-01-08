@@ -11,7 +11,7 @@
 !pip install -q keras
 !pip install tensorflow
 ```
-* Input data is in the same directory as two ipynb files , you can move them to desired places and specidy the path in the two ipynb files just mentioned , the place to change is commented
+* Input data is in the same directory as two ipynb files , you can move them to desired places and specify the path in the two ipynb files just mentioned , the place to adjust is commented
 
 * To reproduce `109550135.csv`(file for submission) without retraining :
 1. Download [Pretrained Model](https://drive.google.com/file/d/1Jbzr1SQ-iFxKGfbqNFEFfhpfu1-Er1wH/view?usp=share_link) 

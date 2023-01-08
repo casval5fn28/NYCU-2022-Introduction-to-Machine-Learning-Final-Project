@@ -1,47 +1,47 @@
 # Introduction-to-Machine-Learning Final Project
 
 ## Environment
-* python: 3.8.16
-* tesorflow: 2.9.2
-* pytorch: 1.13.0+cu116
-* keras: 2.9.0
+* python: 3.10.5
+* tesorflow: 2.11.0
+* keras: 2.11.0
 
-## How to reproduce the work
-* First install the package(for google colab)
+## Process of reproducing the work
+* First install following packages(for google colab)
 ```bash
 !pip install -q keras
 !pip install tensorflow
 ```
-1. run `109550139_Final_train.ipynb` and get `model.h5`
-2. specify the path to load `model.h5` in `109550139_Final_inference.ipynb`
-3. run `109550139_Final_inference.ipynb`
-4. produce `submission.csv`
+* Input data is in the same directory as two ipynb files , you can move them to desired places and specidy the path in the two ipynb files just mentioned , the place to change is commented
 
-* To reproduce `submission.csv` without retraining :
-1. download [the pretrained model](https://drive.google.com/drive/folders/1bKJTxncll687Rdsdr0xXWU_3BLsR8fR0) 
-2. run `109550139_Final_inference.ipynb`
+* To reproduce `109550135.csv`(file for submission) without retraining :
+1. Download [Pretrained Model](https://drive.google.com/file/d/1Jbzr1SQ-iFxKGfbqNFEFfhpfu1-Er1wH/view?usp=share_link) 
+3. Put the downloaded model file in the same directory as `109550135_Final_inference.ipynb`
+2. Run `109550135_Final_inference.ipynb`
+
+* To reproduce `109550135.csv`(file for submission) from the beginning :
+1. Run `109550135_Final_train.ipynb` and get `109550135_model.h5`
+2. `109550135_model.h5` will be in the same directory as `109550135_Final_train.ipynb` and `109550135_Final_inference.ipynb`
+3. So you can run `109550135_Final_inference.ipynb` directly
+4. A `109550135.csv` will be created in the same directory as two ipynb files , it's the result for submission
+
 
 ## Train the model
-After create the environment, you can run `109550139_Final_train.ipynb` to train the model.
+  Once you create the environment, you can run `109550135_Final_train.ipynb` for training the model.
 
-The following structure is the CNN model structure:
+  Of course , you can skip the former step and use `109550135_Final_inference.ipynb` directly to evaluate performace of the model
+>P.S. Don't forget to download [Pretrained Model](https://drive.google.com/file/d/1Jbzr1SQ-iFxKGfbqNFEFfhpfu1-Er1wH/view?usp=share_link) to the same directory as `109550135_Final_train.ipynb` first, then you can run `109550135_Final_inference.ipynb`.
 
-![image](./README_img/summary.jpg)
+## Evaluate model performance
+  Evaluate model performace by `109550135_Final_inference.ipynb`.
 
-Also, you can skip this step and directly use `109550139_Final_inference.ipynb` to evaluate the model performace.
->P.S. Since we save the trained model as `model.h5`, we need to download [the model](https://drive.google.com/drive/folders/1bKJTxncll687Rdsdr0xXWU_3BLsR8fR0) first, then run `109550139_Final_inference.ipynb`.
+  If you want to evaluate the model performance without retraining , you need to download [Pretrained Model](https://drive.google.com/file/d/1Jbzr1SQ-iFxKGfbqNFEFfhpfu1-Er1wH/view?usp=share_link) to the same directory as `109550135_Final_train.ipynb` first, then run `109550135_Final_inference.ipynb`.
 
-## Evaluate
-Use `109550139_Final_inference.ipynb` to evaluate the model performace.
+## Prediction result
+  After finishing evalutaing the model by `109550135_Final_inference.ipynb`, you will get `109550135.csv` , which is the result you need .
 
-If you want to evaluate the model performance directly, you need to download [the model](https://drive.google.com/drive/folders/1bKJTxncll687Rdsdr0xXWU_3BLsR8fR0) first, then run `109550139_Final_inference.ipynb`.
+The below is the accuracy result:
 
-## Results
-After finishing `109550139_Final_inference.ipynb`, you will get `submission.csv`.
-
-Here is the accuracy result:
-
-![image](./README_img/submission.jpg)
+![image](./README_img/result.png)
 | Submission         | Private Score   | Public Score   |
 | ------------------ |---------------- | -------------- |
-| submission.csv     |     0.59014     |      0.58504   |
+| 109550135.csv     |     0.59125     |      0.59547   |

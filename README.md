@@ -1,4 +1,4 @@
-# Introduction-to-Machine-Learning Final Project
+# NYCU 2022 Introduction to Machine Learning Final Project
 
 ## Environment
 * python: 3.10.5

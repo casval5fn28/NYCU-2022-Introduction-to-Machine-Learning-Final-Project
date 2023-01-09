@@ -8,7 +8,7 @@
 ## Process of reproducing the work
 * First install following packages(for google colab)
 ```bash
-!pip install -q keras
+!pip install keras
 !pip install tensorflow
 ```
 * Input data is in the same directory as two ipynb files , you can move them to desired places and specify the path in the two ipynb files just mentioned , the place to adjust is commented
